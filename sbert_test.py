@@ -1,3 +1,7 @@
+"""
+Оценка работы новой сети (любой сети) на парах для переобучения
+"""
+
 import os
 import re
 from sentence_transformers import SentenceTransformer

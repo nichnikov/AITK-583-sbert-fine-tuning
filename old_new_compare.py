@@ -1,3 +1,7 @@
+"""
+Сравнение качества работы старой и новой сетей на валидационной выборке
+"""
+
 import os
 import re
 from sentence_transformers import SentenceTransformer
