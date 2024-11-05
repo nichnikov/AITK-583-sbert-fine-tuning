@@ -17,7 +17,8 @@ def callback(value, a, b):
     if math.isnan(value):
         raise optuna.exceptions.TrialPruned()
 
-model_path = "/home/an/data/models/all_sys_paraphrase.transformers"
+# model_path = "/home/an/data/models/all_sys_paraphrase.transformers"
+model_path = os.path.join("models", "paraphrase_241105.transformers")
 model = SentenceTransformer(model_path)
 
 
